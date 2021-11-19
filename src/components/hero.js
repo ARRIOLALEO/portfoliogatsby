@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import React from "react";
-
+import heroImage from "../images/bg_deal.webp";
 const navigation = [
   { name: "Product", href: "#" },
   { name: "Features", href: "#" },
@@ -36,7 +36,7 @@ const Hero = () => {
                       <span className="sr-only">Workflow</span>
                       <img
                         className="h-8 w-auto sm:h-10"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                        src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667"
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -131,7 +131,7 @@ const Hero = () => {
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                   >
-                    Get started
+                    Сейчас мы ONLINE, пишите
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -139,7 +139,7 @@ const Hero = () => {
                     href="#"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                   >
-                    Live demo
+                    Звоните, мы сейчас работаем
                   </a>
                 </div>
               </div>
@@ -150,7 +150,7 @@ const Hero = () => {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+          src={heroImage}
           alt=""
         />
       </div>

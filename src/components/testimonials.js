@@ -6,11 +6,18 @@ const Testimonials = () => {
                 <div className="container px-6 py-12 mx-auto">
                     <div className="grid items-center gap-4 xl:grid-cols-5">
                         <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
-                            <h2 className="text-4xl font-bold">Duo assum utroque appetere an</h2>
+                            <h2 className="text-4xl font-bold">
+                                Создаем и продвигаем продающие сайты в Бишкеке
+                            </h2>
                             <p className="text-coolGray-600">
-                                Pri ex magna scaevola moderatius. Nullam accommodare no vix, est ei
-                                diceret alienum, et sit cetero malorum. Et sea iudico consequat, est
-                                sanctus adipisci ex.
+                                минимальное требование для ведения современного бизнеса. Это
+                                экономный инструмент рекламы. Создайте свой сайт, продвигайте, и
+                                результат не заставит долго ждать. Прежде чем заказать веб-сайт,
+                                необходимо выбрать систему управления. Приобретая дизайн, подключая
+                                к готовому шаблону CMS, бизнесмен не может решить все задачи
+                                бизнеса. Рынок требует новые коммерческие инструменты, а шаблоны
+                                имеют ограничения. Приходится процессы адаптировать к функциональным
+                                возможностям платформы или менять CMS.
                             </p>
                         </div>
                         <div className="p-6 xl:col-span-3">
@@ -18,49 +25,32 @@ const Testimonials = () => {
                                 <div className="grid content-center gap-4">
                                     <div className="p-6 rounded shadow-md bg-coolGray-50">
                                         <p>
-                                            An audire commodo habemus cum. Ne sed corrumpit
-                                            repudiandae. Tota aliquip democritum pro in, nec
-                                            democritum intellegam ne. Propriae volutpat dissentiet
-                                            ea sit, nec at lorem inani tritani, an ius populo
-                                            perfecto vituperatoribus. Eu cum case modus salutandi,
-                                            ut eum vocent sensibus reprehendunt.
+                                            представляет ограниченную информацию о деятельности.
+                                            Имеет несколько стандартных страниц: главная, услуги,
+                                            компания, цены, контакты. Серьезный функционал здесь
+                                            отсутствует, но всегда возможно сделать доработку,
+                                            добавить новые функции, блог, инструменты электронной
+                                            коммерции.
                                         </p>
                                         <div className="flex items-center mt-4 space-x-4">
-                                            <img
-                                                src="https://source.unsplash.com/51x51/?portrait"
-                                                alt=""
-                                                className="w-12 h-12 bg-center bg-cover rounded-full bg-coolGray-500"
-                                            />
                                             <div>
                                                 <p className="text-lg font-semibold">
-                                                    Leroy Jenkins
-                                                </p>
-                                                <p className="text-sm text-coolGray-600">
-                                                    CTO of Company Co.
+                                                    Сайт визитка
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="p-6 rounded shadow-md bg-coolGray-50">
                                         <p>
-                                            Sit wisi sapientem ut, pri civibus temporibus
-                                            voluptatibus et, ius cu hinc fabulas. Nam meliore
-                                            minimum et, regione convenire cum id. Ex pro eros mucius
-                                            consectetuer, pro magna nulla nonumy ne, eam putent
-                                            iudicabit consulatu cu.
+                                            предназначена для краткосрочных акций. Одностраничник
+                                            также подходит для презентации одного товара или услуги.
+                                            Серьезный недостаток лендинга - отсутствие возможностей
+                                            классического SEO продвижения в поисковых системах.
                                         </p>
                                         <div className="flex items-center mt-4 space-x-4">
-                                            <img
-                                                src="https://source.unsplash.com/52x52/?portrait"
-                                                alt=""
-                                                className="w-12 h-12 bg-center bg-cover rounded-full bg-coolGray-500"
-                                            />
                                             <div>
                                                 <p className="text-lg font-semibold">
-                                                    Leroy Jenkins
-                                                </p>
-                                                <p className="text-sm text-coolGray-600">
-                                                    CTO of Company Co.
+                                                    Посадочная страница
                                                 </p>
                                             </div>
                                         </div>
@@ -69,52 +59,33 @@ const Testimonials = () => {
                                 <div className="grid content-center gap-4">
                                     <div className="p-6 rounded shadow-md bg-coolGray-50">
                                         <p>
-                                            Putant omnium elaboraret per ut. Id dicta tritani
-                                            nominavi quo, mea id justo errem elaboraret. Agam mollis
-                                            scripserit ea his, ut nec postea verear persecuti. Ea
-                                            noster senserit eam, ferri omittantur ei nec. Id mel
-                                            solet libris efficiantur, commune explicari et eos. Case
-                                            movet ad est, sed tota vocent appetere ea.
+                                            подразумевает серьезный уровень взаимоотношений с
+                                            посетителями. Конструкция позволяет управлять разделами,
+                                            категориями, добавлять страницы, создать галереи,
+                                            редактировать контент, поднимать в топ-10 выдачи
+                                            благодаря уникальным текстам и полезному контенту.
                                         </p>
                                         <div className="flex items-center mt-4 space-x-4">
-                                            <img
-                                                src="https://source.unsplash.com/53x53/?portrait"
-                                                alt=""
-                                                className="w-12 h-12 bg-center bg-cover rounded-full bg-coolGray-500"
-                                            />
                                             <div>
                                                 <p className="text-lg font-semibold">
-                                                    Leroy Jenkins
-                                                </p>
-                                                <p className="text-sm text-coolGray-600">
-                                                    CTO of Company Co.
+                                                    Корпоративный сайт
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="p-6 rounded shadow-md bg-coolGray-50">
                                         <p>
-                                            Te omnes virtute volutpat sed. Ei esse eros interesset
-                                            vel, ei populo denique ocurreret vix, eu cum pertinax
-                                            mandamus vituperatoribus. Solum nihil luptatum per ex,
-                                            ei amet viderer eos. Ea illum labitur mnesarchum pro.
-                                            Eius meis salutandi ei nam, alterum expetenda et nec.
-                                            Expetenda intellegat at eum, per mazim sanctus
-                                            honestatis ad. Ei noluisse invenire vix. Te ancillae
-                                            patrioque qui, probo bonorum vivendum ex vim.
+                                            решает одну задачу - предоставить полезные торговые
+                                            возможности покупателям в сайтах. Обычно заказчики
+                                            начинают с программирования каталога, развивают проект,
+                                            наполняют товары, раскручивают, вторым этапом подключают
+                                            личный кабинет, платежные системы и другие функции
+                                            полноценного интернет магазина.
                                         </p>
                                         <div className="flex items-center mt-4 space-x-4">
-                                            <img
-                                                src="https://source.unsplash.com/54x54/?portrait"
-                                                alt=""
-                                                className="w-12 h-12 bg-center bg-cover rounded-full bg-coolGray-500"
-                                            />
                                             <div>
                                                 <p className="text-lg font-semibold">
-                                                    Leroy Jenkins
-                                                </p>
-                                                <p className="text-sm text-coolGray-600">
-                                                    CTO of Company Co.
+                                                    Создание интернет магазина
                                                 </p>
                                             </div>
                                         </div>

@@ -8,58 +8,57 @@ const Footer = () => {
                     <div className="lg:w-1/3">
                         <a href="#" className="flex justify-center space-x-3 lg:justify-start">
                             <div className="flex items-center justify-center w-12 h-12 rounded-full bg-violet-600">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 32 32"
-                                    fill="currentColor"
-                                    className="flex-shrink-0 w-5 h-5 rounded-full text-coolGray-50"
-                                >
-                                    <path d="M18.266 26.068l7.839-7.854 4.469 4.479c1.859 1.859 1.859 4.875 0 6.734l-1.104 1.104c-1.859 1.865-4.875 1.865-6.734 0zM30.563 2.531l-1.109-1.104c-1.859-1.859-4.875-1.859-6.734 0l-6.719 6.734-6.734-6.734c-1.859-1.859-4.875-1.859-6.734 0l-1.104 1.104c-1.859 1.859-1.859 4.875 0 6.734l6.734 6.734-6.734 6.734c-1.859 1.859-1.859 4.875 0 6.734l1.104 1.104c1.859 1.859 4.875 1.859 6.734 0l21.307-21.307c1.859-1.859 1.859-4.875 0-6.734z"></path>
-                                </svg>
+                                <img src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667" />
                             </div>
-                            <span className="self-center text-2xl font-semibold">Brand name</span>
+                            <span className="self-center text-2xl font-semibold">WEB PREMIUM</span>
                         </a>
                     </div>
                     <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
                         <div className="space-y-3">
-                            <h3 className="tracking-wide uppercase text-coolGray-900">Product</h3>
                             <ul className="space-y-1">
                                 <li>
-                                    <a href="#">Features</a>
+                                    <a href="#">Корпоративный сайт</a>
                                 </li>
                                 <li>
-                                    <a href="#">Integrations</a>
+                                    <a href="#">Создание интернет-магазина</a>
                                 </li>
                                 <li>
-                                    <a href="#">Pricing</a>
+                                    <a href="#">Landing page</a>
                                 </li>
                                 <li>
-                                    <a href="#">FAQ</a>
+                                    <a href="#">Создание сайта</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="space-y-3">
-                            <h3 className="tracking-wide uppercase text-coolGray-900">Company</h3>
                             <ul className="space-y-1">
                                 <li>
-                                    <a href="#">Privacy</a>
+                                    <a href="#"> Сайт портал</a>
                                 </li>
                                 <li>
-                                    <a href="#">Terms of Service</a>
+                                    <a href="#"> Лендинг пейдж</a>
+                                </li>
+                                <li>
+                                    <a href="#"> SEO аудит</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Продвижение</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="space-y-3">
-                            <h3 className="uppercase text-coolGray-900">Developers</h3>
                             <ul className="space-y-1">
                                 <li>
-                                    <a href="#">Public API</a>
+                                    <a href="#">Корпоративный сайт</a>
                                 </li>
                                 <li>
-                                    <a href="#">Documentation</a>
+                                    <a href="#">Сайт-каталог</a>
                                 </li>
                                 <li>
-                                    <a href="#">Guides</a>
+                                    <a href="#">Интернет магазин</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Одностраничный сайт</a>
                                 </li>
                             </ul>
                         </div>
@@ -100,7 +99,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="py-6 text-sm text-center text-coolGray-600">
-                    © 1968 Company Co. All rights reserved.
+                    © 2021 Company Co. All rights reserved.
                 </div>
             </footer>
         </>

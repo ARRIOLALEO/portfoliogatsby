@@ -1,16 +1,17 @@
 import React from "react";
+import Image from "../images/webdevelopment.png";
 
 const About = () => {
     return (
         <section class="bg-white dark:bg-gray-800">
             <div class="container px-6 py-8 mx-auto">
                 <div class="items-center lg:flex">
-                    <div class="lg:w-2/3">
-                        <h2 class="text-3xl font-bold text-gray-800 dark:text-gray-100">
-                            Who I am
+                    <div class="lg:w-3/5">
+                        <h2 class="text-5xl font-bold text-gray-800 dark:text-gray-100 pb-4">
+                            Создание и разработка сайтов премиум класса
                         </h2>
 
-                        <p class="mt-3 text-base text-gray-500 sm:mt-5 text-justify">
+                        <p class="text-base text-gray-800 sm:mt-5 sm:text-lg  sm:mx-auto  text-justify">
                             Создание сайтов в Бишкеке, которое предлагает компания Premium Webs -
                             это помощь для начинающих предпринимателей и тем, кто уже давно
                             находится на рынке страны с замечательными идеями, предлагая населению
@@ -68,14 +69,10 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div class="mt-8 lg:mt-0 lg:w-1/3">
+                    <div class="mt-8 lg:mt-0 lg:w-2/5">
                         <div class="flex items-center justify-center lg:justify-end">
-                            <div class="max-w-lg">
-                                <img
-                                    class="object-cover object-center w-full h-64 rounded-md shadow"
-                                    src="https://images.unsplash.com/photo-1484399172022-72a90b12e3c1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
-                                    alt=""
-                                />
+                            <div class="max-w-xl">
+                                <img class="rounded-md " src={Image} alt="" />
                             </div>
                         </div>
                     </div>

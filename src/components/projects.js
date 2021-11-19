@@ -1,140 +1,159 @@
 import React from "react";
+import project001 from "../images/project001";
+import project002 from "../images/project002";
+import project003 from "../images/project003";
+import project004 from "../images/project004";
+import project005 from "../images/project005";
+import project006 from "../images/project006";
+import project007 from "../images/project007";
+import project008 from "../images/project008";
+import project009 from "../images/project009";
+
 const Projects = () => {
     return (
         <>
             <section className="bg-coolGray-100 text-coolGray-800">
+                <h1 class="text-5xl font-bold text-center pt-10  pb-2"> Наши работы</h1>
+                <h3 className="text-xl font-bold text-center pt-2 pb-10">
+                    {" "}
+                    Здесь некоторые выполненные нами проекты:
+                </h3>{" "}
                 <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
                     <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         <a
-                            href="#"
+                            href="http://proekt-invest.kg/"
                             className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-coolGray-50"
                         >
                             <img
                                 role="presentation"
-                                className="object-cover w-full rounded h-44 bg-coolGray-500"
-                                src="https://source.unsplash.com/random/481x361"
+                                className="w-full rounded h-44 bg-coolGray-500"
+                                src={project001}
                             />
                             <div className="p-6 space-y-2">
                                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
-                                    In usu laoreet repudiare legendos
+                                    Проект invest | Строительная компания
                                 </h3>
-                                <span className="text-xs text-coolGray-600">January 21, 2021</span>
-                                <p>
-                                    Mei ex aliquid eleifend forensibus, quo ad dicta apeirian
-                                    neglegentur, ex has tantas percipit perfecto. At per tempor
-                                    albucius perfecto, ei probatus consulatu patrioque mea, ei
-                                    vocent delicata indoctum pri.
-                                </p>
                             </div>
                         </a>
                         <a
-                            href="#"
+                            href="https://porter-taxi-bishkek.netlify.app/"
                             className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-coolGray-50"
                         >
                             <img
                                 role="presentation"
-                                className="object-cover w-full rounded h-44 bg-coolGray-500"
-                                src="https://source.unsplash.com/random/482x362"
+                                className="w-full rounded h-44 bg-coolGray-500"
+                                src={project002}
                             />
                             <div className="p-6 space-y-2">
                                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
-                                    In usu laoreet repudiare legendos
+                                    портер такси в бишкеке - быстрые всего 30 минут
                                 </h3>
-                                <span className="text-xs text-coolGray-600">January 22, 2021</span>
-                                <p>
-                                    Mei ex aliquid eleifend forensibus, quo ad dicta apeirian
-                                    neglegentur, ex has tantas percipit perfecto. At per tempor
-                                    albucius perfecto, ei probatus consulatu patrioque mea, ei
-                                    vocent delicata indoctum pri.
-                                </p>
                             </div>
                         </a>
                         <a
-                            href="#"
+                            href="https://autopark.kg/"
                             className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-coolGray-50"
                         >
                             <img
                                 role="presentation"
-                                className="object-cover w-full rounded h-44 bg-coolGray-500"
-                                src="https://source.unsplash.com/random/483x363"
+                                className="w-full rounded h-44 bg-coolGray-500"
+                                src={project003}
                             />
                             <div className="p-6 space-y-2">
                                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
-                                    In usu laoreet repudiare legendos
+                                    AutoPark.kg - Аренда и прокат автомобилей
                                 </h3>
-                                <span className="text-xs text-coolGray-600">January 23, 2021</span>
-                                <p>
-                                    Mei ex aliquid eleifend forensibus, quo ad dicta apeirian
-                                    neglegentur, ex has tantas percipit perfecto. At per tempor
-                                    albucius perfecto, ei probatus consulatu patrioque mea, ei
-                                    vocent delicata indoctum pri.
-                                </p>
                             </div>
                         </a>
                         <a
-                            href="#"
+                            href="http://kyrgyz-adventure.com/"
+                            className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-coolGray-50"
+                        >
+                            <img
+                                role="presentation"
+                                className="w-full rounded h-44 bg-coolGray-500"
+                                src={project004}
+                            />
+                            <div className="p-6 space-y-2">
+                                <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
+                                    Kyrgyz Adventure &#8211; Time to Discover Central Asia
+                                </h3>
+                            </div>
+                        </a>
+                        <a
+                            href="https://swissinasia.com/"
                             className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-coolGray-50 hidden sm:block"
                         >
                             <img
                                 role="presentation"
-                                className="object-cover w-full rounded h-44 bg-coolGray-500"
-                                src="https://source.unsplash.com/random/484x364"
+                                className="w-full rounded h-44 bg-coolGray-500"
+                                src={project005}
                             />
                             <div className="p-6 space-y-2">
                                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
-                                    In usu laoreet repudiare legendos
+                                    лечение в корее бишкекSwiss in Asia
                                 </h3>
-                                <span className="text-xs text-coolGray-600">January 24, 2021</span>
-                                <p>
-                                    Mei ex aliquid eleifend forensibus, quo ad dicta apeirian
-                                    neglegentur, ex has tantas percipit perfecto. At per tempor
-                                    albucius perfecto, ei probatus consulatu patrioque mea, ei
-                                    vocent delicata indoctum pri.
-                                </p>
                             </div>
                         </a>
                         <a
-                            href="#"
+                            href="http://libmed.kg/"
+                            className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-coolGray-50"
+                        >
+                            <img
+                                role="presentation"
+                                className="full rounded h-44 bg-coolGray-500"
+                                src={project006}
+                            />
+                            <div className="p-6 space-y-2">
+                                <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
+                                    скорая помощь бишкек Либерти-Мед
+                                </h3>
+                            </div>
+                        </a>{" "}
+                        <a
+                            href="https://oimotravel.com/"
                             className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-coolGray-50 hidden sm:block"
                         >
                             <img
                                 role="presentation"
-                                className="object-cover w-full rounded h-44 bg-coolGray-500"
-                                src="https://source.unsplash.com/random/485x365"
+                                className="w-full rounded h-44 bg-coolGray-500"
+                                src={project007}
                             />
                             <div className="p-6 space-y-2">
                                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
-                                    In usu laoreet repudiare legendos
+                                    Oimo &#8211; Oimo Travel freut sich, Sie in Zentralasien
+                                    begrüßen zu dürfen.
                                 </h3>
-                                <span className="text-xs text-coolGray-600">January 25, 2021</span>
-                                <p>
-                                    Mei ex aliquid eleifend forensibus, quo ad dicta apeirian
-                                    neglegentur, ex has tantas percipit perfecto. At per tempor
-                                    albucius perfecto, ei probatus consulatu patrioque mea, ei
-                                    vocent delicata indoctum pri.
-                                </p>
                             </div>
-                        </a>
+                        </a>{" "}
                         <a
-                            href="#"
+                            href="https://key-bishkek.kg/"
                             className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-coolGray-50 hidden sm:block"
                         >
                             <img
                                 role="presentation"
-                                className="object-cover w-full rounded h-44 bg-coolGray-500"
-                                src="https://source.unsplash.com/random/486x366"
+                                className="w-full rounded h-44 bg-coolGray-500"
+                                src={project008}
                             />
                             <div className="p-6 space-y-2">
                                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
-                                    In usu laoreet repudiare legendos
+                                    Аварийное вскрытие по Бишкеку!
                                 </h3>
-                                <span className="text-xs text-coolGray-600">January 26, 2021</span>
-                                <p>
-                                    Mei ex aliquid eleifend forensibus, quo ad dicta apeirian
-                                    neglegentur, ex has tantas percipit perfecto. At per tempor
-                                    albucius perfecto, ei probatus consulatu patrioque mea, ei
-                                    vocent delicata indoctum pri.
-                                </p>
+                            </div>
+                        </a>{" "}
+                        <a
+                            href="http://kyrgyzstantravel.kg/"
+                            className="max-w-sm mx-auto group hover:no-underline focus:no-underline bg-coolGray-50 hidden sm:block"
+                        >
+                            <img
+                                role="presentation"
+                                className="w-full rounded h-44 bg-coolGray-500"
+                                src={project009}
+                            />
+                            <div className="p-6 space-y-2">
+                                <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
+                                    Travel agency in Kyrgyzstan | Tailor-made tours
+                                </h3>
                             </div>
                         </a>
                     </div>

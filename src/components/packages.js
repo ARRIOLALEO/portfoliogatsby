@@ -5,20 +5,18 @@ const Prices = () => {
         <section className="py-20 bg-coolGray-100 text-coolGray-800">
             <div className="container px-4 mx-auto">
                 <div className="max-w-2xl mx-auto mb-16 text-center">
-                    <span className="font-bold tracking-wider uppercase text-violet-600">
-                        Pricing
-                    </span>
-                    <h2 className="text-4xl font-bold lg:text-5xl">Choose your best plan</h2>
+                    <span className="font-bold tracking-wider uppercase text-violet-600">ЦЕНЫ</span>
+                    <h2 className="text-4xl font-bold lg:text-5xl">Выбери свой лучший план</h2>
                 </div>
                 <div className="flex flex-wrap items-stretch -mx-4">
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
                         <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-coolGray-50">
                             <div className="space-y-2">
-                                <h4 className="text-2xl font-bold">Beginner</h4>
-                                <span className="text-6xl font-bold">Free</span>
+                                <h4 className="text-2xl font-bold">oт 17000 (сомов)</h4>
+                                <span className="text-6xl font-bold"> Сайт для бизнеса</span>
                             </div>
                             <p className="mt-3 leading-relaxed text-coolGray-600">
-                                Etiam ac convallis enim, eget euismod dolor.
+                                .лучший способ начать онлайн-бизнес
                             </p>
                             <ul className="flex-1 mb-6 text-coolGray-600">
                                 <li className="flex mb-2 space-x-2">
@@ -34,7 +32,7 @@ const Prices = () => {
                                             clipRule="evenodd"
                                         ></path>
                                     </svg>
-                                    <span>Aenean quis</span>
+                                    <span>3-5 страниц. </span>
                                 </li>
                                 <li className="flex mb-2 space-x-2">
                                     <svg
@@ -49,7 +47,7 @@ const Prices = () => {
                                             clipRule="evenodd"
                                         ></path>
                                     </svg>
-                                    <span>Morbi semper</span>
+                                    <span>Интерактивная карта местоположения</span>
                                 </li>
                                 <li className="flex mb-2 space-x-2">
                                     <svg
@@ -64,28 +62,25 @@ const Prices = () => {
                                             clipRule="evenodd"
                                         ></path>
                                     </svg>
-                                    <span>Tristique enim nec</span>
+                                    <span>Статистика посещаемости сайта.</span>
                                 </li>
                             </ul>
-                            <button
-                                type="button"
+                            <a
+                                href="https://wa.me/+996554022666"
                                 className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-violet-600 text-coolGray-50"
                             >
-                                Get Started
-                            </button>
+                                WhatsApp
+                            </a>
                         </div>
                     </div>
                     <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
                         <div className="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-violet-600 text-coolGray-50">
                             <div className="space-y-2">
-                                <h4 className="text-2xl font-bold">Pro</h4>
-                                <span className="text-6xl font-bold">
-                                    $24
-                                    <span className="text-sm tracking-wide">/month</span>
-                                </span>
+                                <h4 className="text-2xl font-bold">oт 25000 (сомов)</h4>
+                                <span className="text-6xl font-bold">Сайт для Компании</span>
                             </div>
                             <p className="leading-relaxed">
-                                Morbi cursus ut sapien sit amet consectetur.
+                                для серьезного бизнеса и предпринимателей.
                             </p>
                             <ul className="flex-1 space-y-2">
                                 <li className="flex items-center space-x-2">
@@ -101,7 +96,7 @@ const Prices = () => {
                                             clipRule="evenodd"
                                         ></path>
                                     </svg>
-                                    <span>Everything in Free</span>
+                                    <span>4-7 основных страниц.</span>
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <svg
@@ -116,7 +111,7 @@ const Prices = () => {
                                             clipRule="evenodd"
                                         ></path>
                                     </svg>
-                                    <span>Phasellus tellus</span>
+                                    <span>Интерактивная карта местоположения.</span>
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <svg
@@ -131,7 +126,7 @@ const Prices = () => {
                                             clipRule="evenodd"
                                         ></path>
                                     </svg>
-                                    <span>Praesent faucibus</span>
+                                    <span>Статистика посещаемости сайта.</span>
                                 </li>
                                 <li className="flex items-center space-x-2">
                                     <svg
@@ -146,28 +141,25 @@ const Prices = () => {
                                             clipRule="evenodd"
                                         ></path>
                                     </svg>
-                                    <span>Aenean et lectus blandit</span>
+                                    <span>Контакты с формой обратной связи</span>
                                 </li>
                             </ul>
                             <a
-                                href="#"
+                                href="https://wa.me/+996554022666"
                                 className="inline-block w-full px-5 py-3 font-bold tracking-wider text-center rounded bg-coolGray-100 text-violet-600"
                             >
-                                Get Started
+                                WhatsApp
                             </a>
                         </div>
                     </div>
                     <div className="w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
                         <div className="p-6 space-y-6 rounded shadow sm:p-8 bg-coolGray-50">
                             <div className="space-y-2">
-                                <h4 className="text-2xl font-bold">Team</h4>
-                                <span className="text-6xl font-bold">
-                                    $72
-                                    <span className="text-sm tracking-wide">/month</span>
-                                </span>
+                                <h4 className="text-2xl font-bold">oт 25000 (сомов)</h4>
+                                <span className="text-6xl font-bold">Интернет магазин</span>
                             </div>
                             <p className="leading-relaxed text-coolGray-600">
-                                Phasellus ultrices bibendum nibh in vehicula.
+                                начни показывать свою продукцию миру.
                             </p>
                             <ul className="space-y-2 text-coolGray-600">
                                 <li className="flex items-start space-x-2">
@@ -183,7 +175,7 @@ const Prices = () => {
                                             clipRule="evenodd"
                                         ></path>
                                     </svg>
-                                    <span>Everything in Pro</span>
+                                    <span>Форма заказа товара</span>
                                 </li>
                                 <li className="flex items-start space-x-2">
                                     <svg
@@ -198,7 +190,7 @@ const Prices = () => {
                                             clipRule="evenodd"
                                         ></path>
                                     </svg>
-                                    <span>Fusce sem ligula</span>
+                                    <span>Каталог товаров с категориями товаров</span>
                                 </li>
                                 <li className="flex items-start space-x-2">
                                     <svg
@@ -213,7 +205,7 @@ const Prices = () => {
                                             clipRule="evenodd"
                                         ></path>
                                     </svg>
-                                    <span>Curabitur dictum</span>
+                                    <span>Мобильная версия сайт</span>
                                 </li>
                                 <li className="flex items-start space-x-2">
                                     <svg
@@ -228,7 +220,7 @@ const Prices = () => {
                                             clipRule="evenodd"
                                         ></path>
                                     </svg>
-                                    <span>Duis odio eros</span>
+                                    <span>Кнопки социальных сетей</span>
                                 </li>
                                 <li className="flex items-start space-x-2">
                                     <svg
@@ -243,14 +235,14 @@ const Prices = () => {
                                             clipRule="evenodd"
                                         ></path>
                                     </svg>
-                                    <span>Vivamus ut lectus ex</span>
+                                    <span>Раздел Новости</span>
                                 </li>
                             </ul>
                             <a
-                                href="#"
+                                href="https://wa.me/+996554022666"
                                 className="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-violet-600 text-coolGray-50"
                             >
-                                Get Started
+                                WhatsApp
                             </a>
                         </div>
                     </div>

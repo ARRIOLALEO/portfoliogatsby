@@ -6,8 +6,8 @@ const ContactUs = () => {
             <section className="py-6 bg-coolGray-100 text-coolGray-900">
                 <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
                     <div className="py-6 md:py-0 md:px-6">
-                        <h1 className="text-4xl font-bold">Get in touch</h1>
-                        <p className="pt-2 pb-4">Fill in the form to start a conversation</p>
+                        <h1 className="text-4xl font-bold">связаться</h1>
+                        <p className="pt-2 pb-4">Давайте обсудим ваш сайт прямо сейчас</p>
                         <div className="space-y-4">
                             <p className="flex items-center">
                                 <svg
@@ -22,7 +22,9 @@ const ContactUs = () => {
                                         clipRule="evenodd"
                                     ></path>
                                 </svg>
-                                <span>Fake address, 9999 City</span>
+                                <span>
+                                    Ololo, коворкинг-центр, микрорайон Асанбай, 27/1, Бишкек
+                                </span>
                             </p>
                             <p className="flex items-center">
                                 <svg
@@ -33,7 +35,7 @@ const ContactUs = () => {
                                 >
                                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
                                 </svg>
-                                <span>123456789</span>
+                                <span>+996 703 170 909</span>
                             </p>
                             <p className="flex items-center">
                                 <svg
@@ -50,13 +52,16 @@ const ContactUs = () => {
                         </div>
                     </div>
                     <form
-                        novalidate=""
+                        data-netlify="true"
+                        name="contact"
+                        method="POST"
                         className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid"
                     >
                         <label className="block">
                             <span className="mb-1">Full name</span>
                             <input
                                 type="text"
+                                name="name"
                                 placeholder="Leroy Jenkins"
                                 className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-600 bg-coolGray-100"
                             />
@@ -65,6 +70,7 @@ const ContactUs = () => {
                             <span className="mb-1">Email address</span>
                             <input
                                 type="email"
+                                name="email"
                                 placeholder="leroy@jenkins.com"
                                 className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-600 bg-coolGray-100"
                             />
@@ -73,11 +79,12 @@ const ContactUs = () => {
                             <span className="mb-1">Message</span>
                             <textarea
                                 rows="3"
+                                name="message"
                                 className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-600 bg-coolGray-100"
                             ></textarea>
                         </label>
                         <button
-                            type="button"
+                            type="submit"
                             className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-violet-600 text-coolGray-50 focus:ring-violet-600 hover:ring-violet-600"
                         >
                             Submit

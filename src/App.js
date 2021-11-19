@@ -7,6 +7,7 @@ import Stack from "./components/stack";
 import Prices from "./components/packages";
 import ContactUs from "./components/contactus";
 import Testimonials from "./components/testimonials";
+import SeoTexst from "./components/seotext";
 import Projects from "./components/projects";
 import Footer from "./components/footer";
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Projects />
       <Prices />
       <Testimonials />
+      <SeoTexst />
       <Stack />
       <ContactUs />
       <Footer />
